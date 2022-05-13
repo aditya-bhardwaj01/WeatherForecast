@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/WeatherForecast/static/css/main.cda41956.css",
+    "main.js": "/WeatherForecast/static/js/main.31ff1525.js",
+    "static/js/787.d62d1c65.chunk.js": "/WeatherForecast/static/js/787.d62d1c65.chunk.js",
+    "static/media/cloudy.gif": "/WeatherForecast/static/media/cloudy.bfb6e0c1241861f281dc.gif",
+    "static/media/partial_cloudy.gif": "/WeatherForecast/static/media/partial_cloudy.5b4bff2900a2cb9d8fb9.gif",
+    "static/media/rainy.gif": "/WeatherForecast/static/media/rainy.239dc4b353e82ce897f3.gif",
+    "static/media/loading.gif": "/WeatherForecast/static/media/loading.9780dd93f7d82a27ce86.gif",
+    "static/media/weather.gif": "/WeatherForecast/static/media/weather.242e70cd71e76c8375ae.gif",
+    "index.html": "/WeatherForecast/index.html",
+    "main.cda41956.css.map": "/WeatherForecast/static/css/main.cda41956.css.map",
+    "main.31ff1525.js.map": "/WeatherForecast/static/js/main.31ff1525.js.map",
+    "787.d62d1c65.chunk.js.map": "/WeatherForecast/static/js/787.d62d1c65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cda41956.css",
+    "static/js/main.31ff1525.js"
+  ]
+}
