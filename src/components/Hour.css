@@ -1,0 +1,32 @@
+.element{
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0.5em auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 10px;
+}
+
+.time-hourly{
+    /* border: solid red; */
+    text-align: left;
+}
+.time-hourly h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 2em;
+}
+.time-hourly h5 img{
+    height: 50px;
+    width: 50px;
+    margin-left: 0.4em;
+}
+
+.details{
+    /* border: solid blue; */
+}
+
+@media (max-width: 768px){
+    .time-hourly h5{
+        padding-left: 0.3em;
+    }
+}

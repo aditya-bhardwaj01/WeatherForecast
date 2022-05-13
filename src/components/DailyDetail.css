@@ -1,0 +1,55 @@
+.DailyDetail{
+    padding: 2em;
+}
+
+.weekDayChild{
+    margin-left: 0.75em;
+    margin-top: 1em;
+    color: rgba(0,0,0, 0.7);
+}
+
+.weekDayChild img{
+    height: 60px;
+    width: 60px;
+    margin-left: 0.6em;
+}
+
+.DayWeather{
+    margin-top: 1em;
+}
+
+.SubDetail{
+    padding: 1em 0;
+    border-radius: 10px;
+    margin: 1em;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.footer{
+    text-align: center;
+    background-color: transparent;
+    margin-top: 1.5em;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 768px){
+    .DailyDetail{
+        padding: 0.3em;
+        padding-left: 0.1em;
+        padding-right: 0.1em;
+    }
+    .SubDetail{
+        padding: 0.2em 0;
+        margin: 0.5em;
+        margin-left: 0.3em;
+        margin-right: 0.3em;
+    }
+}
+
+@media (max-width: 380px){
+    .footer{
+        font-size: 60%;
+        margin-top: 1em;
+    }
+}

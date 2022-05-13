@@ -1,0 +1,51 @@
+.DailyWeather{
+    padding: 0.3em 4em;
+    color: white;
+}
+
+.innerComp{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.head-title{
+    display: flex;
+    align-items: center;
+}
+.weekDay{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.arrow{
+    font-size: 30px;
+}
+
+/* #dropdown-basic {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: transparent;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.dropdown-items{
+    border: solid red;
+    overflow-y: visible;
+}
+
+.dropdown-items{
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.climate-item{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0.6em;
+    margin-left: 1em;
+    min-width: 180px;
+    font-weight: bold;
+} */
+
+@media (max-width: 567px){
+    .DailyWeather{
+        padding: 0.5em 1.5em 0 1.5em;
+    }
+}

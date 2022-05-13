@@ -1,0 +1,77 @@
+.Detail{
+    padding: 2em;
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+.container{
+    text-align: center;
+}
+
+.current{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0.5em auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 10px;
+}
+.current h5{
+    text-align: left;
+    margin-left: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.col-md{
+    margin: 0.1em;
+    font-weight: bold;
+}
+
+.components{
+    margin-left: 2.6em;
+}
+
+.section{
+    font-size: 18px;
+}
+
+.gotoDetail{
+    background: transparent;
+    border: none;
+    color: grey;
+    margin-left: 1em;
+    text-decoration: none;
+    font-size: 110%;
+}
+.gotoDetail:hover{
+    color: grey;
+}
+
+.time-zone{
+    margin: 1em;
+    font-size: 70%;
+    color: rgba(0, 0, 0);
+}
+
+.timezone-main{
+    margin-left: 10em;
+}
+
+@media (max-width: 768px){
+    .Detail{
+        padding: 2em;
+        padding-left: 0.1em;
+        padding-right: 0.1em;
+    }
+    .components{
+        text-align: left;
+        margin-left: 1.2em;
+    }
+    .section{
+        font-size: 16px;
+    }
+    .current h5{
+        text-align: left;
+        margin-left: 0.3em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}

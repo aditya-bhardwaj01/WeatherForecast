@@ -1,0 +1,66 @@
+.TopSection{
+    padding: 1.5em 3.8em 0 3em;
+    color: white;
+}
+
+.time{
+    font-size: 3.5em;
+    font-weight: 50;
+}
+.time img{
+    width: 65px;
+    height: 65px;
+    margin-left: 0.6em;
+}
+
+.date{
+    font-size: 1.5em;
+    font-weight: 50;
+}
+
+.area{
+    font-size: 2em;
+    font-weight: 50;
+    /* float: right; */
+}
+
+.left-section{
+    /* border: solid red; */
+}
+
+.right-section{
+    /* border: solid green; */
+    /* text-align: right; */
+    text-align: right;
+}
+
+.extra-info{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.2em 0.8em;
+    width: 250px;
+}
+
+@media (max-width: 567px){
+    .TopSection{
+        padding: 0.2em 0.7em 0 0.7em;
+    }
+    .time{
+        font-size: 2.5em;
+        font-weight: 50;
+    }
+    
+    .date{
+        font-size: 1em;
+        font-weight: 50;
+    }
+    
+    .area{
+        font-size: 1.5em;
+        font-weight: 50;
+    }
+    .extra-info{
+        width: 200px;
+        font-size: 80%;
+    }
+}
+
